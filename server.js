@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain')
   res.write('Hello!\n')
   res.write('This is my first App using Node.js\n')
-  res.end('Created by Deepak Malempati)\n')
+  res.end('Created by Deepak Malempati\n')
 })
 
 // start listening
